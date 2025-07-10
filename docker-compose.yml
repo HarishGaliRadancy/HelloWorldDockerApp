@@ -1,0 +1,8 @@
+﻿version: '3.4'
+
+services:
+  helloworld:
+    image: helloworldapp
+    build:
+      context: .
+      dockerfile: Dockerfile
